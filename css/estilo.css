@@ -1,0 +1,157 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #e6e6e6;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+}
+
+/*#overall {
+    width: 80%;
+    margin: 0px auto;
+}*/
+
+
+
+/* Barra de nav e logo*/
+
+#topo {
+    background-color: #f7b600;
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 15px;
+    min-width: 700px;
+}
+
+#topo a {
+    width: 35%;
+    margin: 20px auto;
+    text-decoration: none;
+    padding: 8px 12px;
+    font-weight: 600;
+}
+#topo a:link {
+    color: rgb(246, 246, 227);
+} 
+#topo a:visited {
+    color: #fff
+}
+#topo a:hover {
+    background-color: azure;
+    color: #f7b600;
+}
+
+
+#logo, #menu {
+    padding: 10px;
+}
+h1 {
+    font-size: 2.5em;
+    font-weight: 900;
+    color: #4b4b4b;
+}
+.white {
+    color: white;
+}
+
+
+/*conteudo*/
+
+#conteudo {
+    width: 75%;
+    margin: 0px auto;
+    min-width: 900px;
+}
+
+.post-a {
+    background-color: white;
+    margin: 15px 15px 0px 15px;
+    padding: 20px 20px 0px 20px;
+    float: left;
+    width: 60%;
+}
+
+.post-a h2 {
+    color: #f7b600;
+    font-size: 30px;
+}
+
+.post-a .data_postagem {
+    color: #f7b600;
+    font-size: 20px;
+    color: #4b4b4b;
+}
+
+.post-a img {
+    margin: 20px 0px 10px 0px;
+    width: 100%;
+}
+
+.post-a .comentario {
+    margin-bottom: 25px;
+}
+
+/*barra lateral*/
+
+.barra_lateral {
+    float: left;
+    margin: 15px 15px 7px 7px;
+    background-color: white;
+    padding: 15px;
+    width: 25%;
+}
+
+.barra_lateral ul {
+    list-style-type: none;
+}
+.barra_lateral ul li a {
+    text-decoration: none;
+    font-size: 1.15em;
+}
+.barra_lateral ul {
+    font-weight: 800;
+}
+
+.barra_lateral a {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0px 5px;
+}
+.barra_lateral a:link, a:visited{
+    color: #f7b600;
+} 
+
+.barra_lateral h2 {
+    background-color: #d0d3e0;
+    padding: 5px;
+}
+
+.barra_lateral p {
+    padding: 5px;
+}
+
+
+.barra_lateral .postrec {
+    border-bottom: 3px solid #dfe2e9;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+.barra_lateral #post_ultimo {
+    border: none;
+}
+
+/*rodape*/
+
+#rodape {
+    background-color: #bbbfce;
+    clear: both;
+    height: 60px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
